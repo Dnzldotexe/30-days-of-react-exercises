@@ -1,14 +1,40 @@
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya',
+];
+  
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB',
+];
+
 // Declare an empty array;
 const emptyArray = [];
 
 // Declare an array with more than 5 number of elements
-const fiveElements = Array(5);
+const fiveElements = Array(10);
 
 // Find the length of your array
-const arrLength = fiveElements.length();
+const arrLength = fiveElements.length;
 
 // Get the first item, the middle item and the last item of the array
-
+const firstItem = countries[0];
+const middleItem = countries[countries.length / 2];
+const lastItem = countries[countries.length - 1];
 
 // Declare an array called mixedDataTypes, put different data types in the array and find the length of the array. The array size should be greater than 5
 
